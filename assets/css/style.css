@@ -207,16 +207,17 @@ ul li{
      margin-bottom: 10px;
     
  }
- .portofoile .our-projects .links button.active{
-   border-bottom: 1px solid #d73e4d;
-   border-radius: 0;
- }
+ 
  .portofoile .our-projects .links .btn:hover{
     border-bottom: 1px solid #d73e4d;
     transition-duration: .4s;
     border-radius: 0;
  
  }
+ .portofoile .our-projects .links .active{
+    border-bottom: 1px solid #d73e4d;
+    border-radius: 0;
+  }
  .portofoile .our-projects .gallery_product {
     margin-bottom: 32px;
     width:100%;
@@ -244,6 +245,7 @@ ul li{
      background: rgba(215,67,77,0.9);
      width:100%;
      z-index: 100;
+     opacity: 0;
  }
  .portofoile .our-projects .gallery_product .border{
      position: absolute;
@@ -255,8 +257,43 @@ ul li{
      color: #fff;
  }
  .portofoile .our-projects .gallery_product .border div{
-    display: table-cell;
+    text-align: center;
     vertical-align: middle;
+  padding-top: 25%;
+ }
+ .portofoile .our-projects .gallery_product .border div h6{
+
+    text-transform: uppercase;
+    font-weight: 700;
+ }
+ .portofoile .our-projects .gallery_product .border div ul li{
+    display: inline-block;
+    color: #fff;
+    margin-top: 8px;
+   
+  
+ }
+ .portofoile .our-projects .gallery_product:hover > .abac{
+     opacity: .9;
+     transition-duration: .4s;
+ }
+ .portofoile .our-projects .gallery_product:hover > img{
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    -o-transition:scale(1.1);
+    -moz-transition:scale(1.1);
+    transform: scale(1.1);
+    transition: .4s;
+    overflow: hidden;
+ }
+ .portofoile .our-projects .gallery_product:hover > h6{
+    animation-duration: 3s;
+    animation-delay: 2s;
+ }
+
+ .portofoile .our-projects .gallery_product:hover > ul {
+    animation-duration: 3s;
+    animation-delay: 2s;
  }
 
 /*End Portofoil*/
@@ -492,3 +529,31 @@ ul li{
 	}
 }*/
 /*End Team*/
+
+
+/**Start skill**/
+.skill{
+    margin-top: 70px;
+}
+.skill .image{
+    width: 100%;
+    position: relative;
+}
+.skill .image img{
+    width: 100%;
+}
+.skill .image .apac{
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+background: #000;
+opacity: 0;
+}
+.skill:hover > .image .apac{
+    opacity: .6;
+}
+
+
+
