@@ -53,7 +53,12 @@ $('#WebDevelopment').LineProgressbar({
 
 
 
+/****
+ * OWL
+ *****/
 
+    $(".owl-carousel").owlCarousel();
+ 
 
 
 });
