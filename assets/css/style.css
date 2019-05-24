@@ -207,7 +207,7 @@ ul li{
      margin-bottom: 10px;
     
  }
- .portofoile .our-projects .links .btn.active{
+ .portofoile .our-projects .links button.active{
    border-bottom: 1px solid #d73e4d;
    border-radius: 0;
  }
@@ -245,7 +245,19 @@ ul li{
      width:100%;
      z-index: 100;
  }
- 
+ .portofoile .our-projects .gallery_product .border{
+     position: absolute;
+     left:20px;
+     right: 20px;
+     top:20px;
+     bottom: 20px;
+     border: 1px solid #fff;
+     color: #fff;
+ }
+ .portofoile .our-projects .gallery_product .border div{
+    display: table-cell;
+    vertical-align: middle;
+ }
 
 /*End Portofoil*/
 /****/
