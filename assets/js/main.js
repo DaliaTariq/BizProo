@@ -21,4 +21,39 @@ $(document).ready(function () {
 $(this).removeClass("active");
 }
 $(this).addClass("active");
+
+
+////////////////////////////////////////////////
+//Web Development bar
+$('#WebDevelopment').LineProgressbar({
+      percentage: 89 // 90%
+    });
+
+    $('#WebDevelopment').LineProgressbar({
+          percentage: 89,
+          ShowProgressCount: true
+    });
+
+    $('#WebDevelopment').LineProgressbar({
+              percentage: 89,
+              duration: 1000
+    });
+
+    $('#WebDevelopment').LineProgressbar({
+          percentage: 89,
+          fillBackgroundColor: '#d8545d',
+          backgroundColor: '#fff',
+          radius: '0px',
+          height: '30px',
+          width: '100%'
+        });
+
+
+            
+
+
+
+
+
+
 });

@@ -278,12 +278,12 @@ ul li{
      transition-duration: .4s;
  }
  .portofoile .our-projects .gallery_product:hover > img{
-    -ms-transform: scale(1.1); 
-    -webkit-transform: scale(1.1); 
-    -o-transition:scale(1.1);
-    -moz-transition:scale(1.1);
-    transform: scale(1.1);
-    transition: .4s;
+    -webkit-transform: scale3d(1.15,1.15,1);
+    -moz-transform: scale3d(1.15,1.15,1);
+    -ms-transform: scale3d(1.15,1.15,1);
+    -o-transform: scale3d(1.15,1.15,1);
+    transform: scale3d(1.15,1.15,1);
+    transition-duration: 2s;
     overflow: hidden;
  }
  .portofoile .our-projects .gallery_product:hover > h6{
@@ -491,21 +491,21 @@ ul li{
 
 
 .team .member .image:hover > img{
-    -ms-transform: scale(1.1); 
-    -webkit-transform: scale(1.1); 
-    -o-transition:scale(1.1);
-    -moz-transition:scale(1.1);
-    transform: scale(1.1);
-    transition: .4s;
+    -webkit-transform: scale3d(1.15,1.15,1);
+   -moz-transform: scale3d(1.15,1.15,1);
+   -ms-transform: scale3d(1.15,1.15,1);
+   -o-transform: scale3d(1.15,1.15,1);
+   transform: scale3d(1.15,1.15,1);
+   transition-duration: 2s;
     overflow: hidden;
 }
 .team .member:hover > .image .overlay{
     opacity: 1;
-    -webkit-transition: all .4s ease-in-out;
-    -moz-transition: all .4s ease-in-out;
-    -ms-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
    /* animation: fadeIn .4s ease-in both;*/
 }
 
@@ -532,28 +532,41 @@ ul li{
 
 
 /**Start skill**/
-.skill{
+.skilles{
     margin-top: 70px;
 }
-.skill .image{
+.skilles .image{
     width: 100%;
     position: relative;
+    overflow: hidden;
 }
-.skill .image img{
+.skilles .image img{
     width: 100%;
+    display: block;
 }
-.skill .image .apac{
-position: absolute;
-left: 0;
-right: 0;
-top: 0;
-bottom: 0;
-background: #000;
-opacity: 0;
+
+/*.skilles .image .overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    width:100%;
+    background: #000;
+    opacity: 0.6;
+}*/
+.skilles:hover .image img {
+   opacity: .6;
+   -webkit-transform: scale3d(1.15,1.15,1);
+   -moz-transform: scale3d(1.15,1.15,1);
+   -ms-transform: scale3d(1.15,1.15,1);
+   -o-transform: scale3d(1.15,1.15,1);
+   transform: scale3d(1.15,1.15,1);
+   transition-duration: 2s;
+ 
 }
-.skill:hover > .image .apac{
-    opacity: .6;
-}
+
+/**End skill**/
 
 
 
