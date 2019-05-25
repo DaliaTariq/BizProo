@@ -567,6 +567,50 @@ ul li{
 }
 
 /**End skill**/
+/*Clients Start*/
+.clients .item{
+    text-align: center;
+    margin: 58px 0 50px 0;
+    color: #343434;
+}
+.clients .item img{
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.clients .item p{
+    font-size: 18px;
+    line-height: 28px;
+    width: 80%;
+    margin: 33px auto 24px auto;
+}
+.clients .item h6{
+    text-transform: capitalize;
+    margin-bottom: 45px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    width: 13px;
+    height: 13px;
+     background: #fff; 
+    border: 1px solid#9d9f9f;
+    margin: 0 5px;
+}
+
+.owl-theme .owl-dots .owl-dot:hover span,
+.owl-theme .owl-dots .owl-dot.active span{
+    border-color: #d73e4d;
+    border-style: solid;
+    background: #d73e4d;
+}
+
+
+
+/*Clients End*/
 
 
 
