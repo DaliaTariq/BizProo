@@ -695,60 +695,44 @@ ul li{
 
 /*End price*/
 
-
-
-
-
 /*Strat blog*/
-.blog .image{
+.blog .myBlog{
+    width: 100%;
+    overflow: hidden;
+}
+.blog .myBlog .image{
+    width: 100%;
+    overflow: hidden;
     position: relative;
-    overflow: hidden;
-
 }
-.blog .image img{
+.blog .myBlog .image img{
     width: 100%;
     display: block;
 }
-.blog .image .overlay{
+.blog .myBlog .image .overlay{
     position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
+    top:0;
     bottom: 0;
+    left: 0;
+    right: 0;
     width: 100%;
-    background: rgba(0,0,0,0.0);
-   
-
-   
+    background-color: rgba(0,0,0,0.5);
 }
-.blog .image .overlay i{
+.blog .myBlog .image .overlay a{
     display: block;
     position: absolute;
-    top: 50%;
+    top:50%;
     left: 50%;
-    font-size: 28px;
     color: #d73e4d;
-    opacity: 0;
-   
+    font-size: 28px;
 }
-.blog .image:hover > .overlay{
-    background: rgba(0,0,0,0.5);
-   /* -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);*/
+.blog .myBlog .blogContent h6 a{
+    display: block;
+    color: #292929;
+    margin: 40px 0 15px 0;
+   font-weight: bold;
 }
-.blog .image:hover > .overlay i{
-    opacity: 1;
+
+.blog .myBlog .blogContent h6 a:hover{
+    color: #d73e4d;
 }
-.blog .image:hover > .image img{
-    -webkit-transform: scale3d(1.15,1.15,1);
-    -moz-transform: scale3d(1.15,1.15,1);
-    -ms-transform: scale3d(1.15,1.15,1);
-    -o-transform: scale3d(1.15,1.15,1);
-    transform: scale3d(1.15,1.15,1);
-    transition-duration: 2s;
-    overflow: hidden;
-}
-/*End blog*/
