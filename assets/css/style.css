@@ -698,7 +698,7 @@ ul li{
 /*Strat blog*/
 .blog .myBlog{
     width: 100%;
-    overflow: hidden;
+    display: block;
 }
 .blog .myBlog .image{
     width: 100%;
@@ -711,6 +711,7 @@ ul li{
 }
 .blog .myBlog .image .overlay{
     position: absolute;
+    display: block;
     top:0;
     bottom: 0;
     left: 0;
@@ -727,13 +728,13 @@ ul li{
     color: #d73e4d;
     font-size: 28px;
     opacity: 0;
+    -webkit-transform: scale(0.2);
+    -moz-transform: scale(0.2);
+    -ms-transform: scale(0.2);
+    -o-transform: scale(0.2);
+    transform: scale(0.2);
 }
-.blog .myBlog:hove > .blog .myBlog .image .overlay{
-    background-color: rgba(0,0,0,0.5);
-} 
-.blog .myBlog:hover > .blog .myBlog .image .overlay a{
-    opacity: 1;
-}
+
 .blog .myBlog .blogContent h6 a{
     display: block;
     color: #292929;
@@ -752,6 +753,37 @@ ul li{
     font-size: 15px;
     margin-bottom: 18px;
 }
-.blog .myBlog .blogContent p{
+.blog .myBlog .blogContent p,
+.blog .myBlog .blogContent p a{
     color: #6f6f6f;
+}
+
+.blog .myBlog:hover > .image .overlay{
+    background-color: rgba(0,0,0,0.5);
+   /*border-radius: 100%;*/
+ 
+   -webkit-transition: all .4s ease-in-out;
+   -moz-transition: all .4s ease-in-out;
+   -ms-transition: all .4s ease-in-out;
+   -o-transition: all .4s ease-in-out;
+   transition: all .4s ease-in-out;
+}
+.blog .myBlog:hover > .image .overlay a{
+ opacity: 1;
+ -webkit-transform: scale(1.2);
+ -moz-transform: scale(1.2);
+ -ms-transform: scale(1.2);
+ -o-transform: scale(1.2);
+ transform: scale(1.2);
+ text-decoration: 2.2s;
+}
+
+.blog .myBlog:hover > .image img{
+    -webkit-transform: scale3d(1.15,1.15,1);
+    -moz-transform: scale3d(1.15,1.15,1);
+    -ms-transform: scale3d(1.15,1.15,1);
+    -o-transform: scale3d(1.15,1.15,1);
+    transform: scale3d(1.15,1.15,1);
+    transition-duration: 2s;
+    overflow: hidden;
 }
