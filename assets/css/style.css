@@ -11,6 +11,9 @@ body{
 .bg-black{
     background: #232a34;
 }
+.bg-gray{
+    background-color: #f9f9f9;
+}
 
 .section-intro{
     text-align: center;
@@ -696,6 +699,9 @@ ul li{
 /*End price*/
 
 /*Strat blog*/
+.blog{
+    margin-bottom: 100px;
+}
 .blog .myBlog{
     width: 100%;
     display: block;
@@ -787,3 +793,11 @@ ul li{
     transition-duration: 2s;
     overflow: hidden;
 }
+/*Start Partner*/
+.partner  .item{
+    width: 100%;
+}
+.partner  .item img{
+    width: 100%;
+}
+/*End Partner*/

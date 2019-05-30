@@ -56,8 +56,8 @@ $('#WebDevelopment').LineProgressbar({
 /****
  * OWL
  *****/
-
-    $(".owl-carousel").owlCarousel(
+     //Clients
+    $(".owl-carousel.client").owlCarousel(
         {
             loop:true,
             margin:10,
@@ -71,6 +71,26 @@ $('#WebDevelopment').LineProgressbar({
                 },
                 1000:{
                     items:1
+                }
+            }
+        }
+    );
+
+    //partner
+    $(".owl-carousel.part").owlCarousel(
+        {
+            loop:true,
+            margin:0,
+            nav:false,
+            responsive:{
+                0:{
+                    items:5
+                },
+                600:{
+                    items:5
+                },
+                1000:{
+                    items:5
                 }
             }
         }
