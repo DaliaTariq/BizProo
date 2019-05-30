@@ -80,7 +80,8 @@ $('#WebDevelopment').LineProgressbar({
     $(".owl-carousel.part").owlCarousel(
         {
             loop:true,
-           /* margin:-1,*/
+           margin:-1,
+           width:234.8,
             nav:false,
             autoplay:true,
             autoplayTimeout:8000,
