@@ -917,8 +917,98 @@ p{
  display: block;
 }
 .footer .logo img{
-    width: 100%;
+    max-width: 100%;
 }
+.footer ul li a{
+ 
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border:1px solid;
+    border-radius: 50%;
+    margin: 0 7px;
+}
+.footer ul li a{
+    text-decoration: none;
+    display: block
+}
+.footer ul li#facebook a{
+    border-color: #337ab7;
+    color: #337ab7;
+}
+.footer ul li#facebook a:hover{
+    background-color: #337ab7;
+    color: #fff;
+}
+
+.footer ul li#twiter a{
+    border-color: #70c2e9;
+    color: #70c2e9;
+}
+.footer ul li#twiter a:hover{
+    background-color:#70c2e9;
+    color: #fff;
+}
+
+.footer ul li#pinterest a{
+    border-color: #d8545d;
+    color: #d8545d;
+}
+.footer ul li#pinterest a:hover{
+    background-color:#d8545d;
+    color: #fff;
+}
+.footer ul li#linkedIn a{
+    border-color: #007ab9;
+    color: #007ab9;
+}
+.footer ul li#linkedIn a:hover{
+    background-color:#007ab9;
+    color: #fff;
+}
+
+.footer ul li#skype a{
+    border-color: #5ecbf3;
+    color: #5ecbf3;
+}
+.footer ul li#skype a:hover{
+    background-color:#5ecbf3;
+    color: #fff;
+}
+
+.footer ul li#flickr a{
+    border-color: #ff3ba4;
+    color: #ff3ba4;
+}
+.footer ul li#flickr a:hover{
+    background-color:#ff3ba4;
+    color: #fff;
+}
+
+.footer ul li#dribbble a{
+    border-color: #e299c2;
+    color: #e299c2;
+}
+.footer ul li#dribbble a:hover{
+    background-color:#e299c2;
+    color: #fff;
+}
+
+.footer ul li#rss a{
+    border-color: #faaa5e;
+    color: #faaa5e;
+}
+.footer ul li#rss a:hover{
+    background-color:#faaa5e;
+    color: #fff;
+}
+.footer  p{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
 /*End footer*/
 
 
