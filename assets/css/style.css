@@ -51,6 +51,10 @@ ul{
 }
 ul li{
     display: inline-block;
+    
+}
+p{
+    line-height: 26px;
 }
 /****************************************************************End Glabal*********************************************/
 /*Header*/
@@ -800,6 +804,7 @@ ul li{
 .partner{
     padding: 50px 0;
     margin: 100px 0;
+    margin-bottom: 0;
 }
 .partner  .item{
     width:100%;
@@ -815,3 +820,54 @@ ul li{
 
 
 /*End Partner*/
+/*Start contact*/
+.contact h2{
+    color: #292929;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 95px 0 35px 0;
+  
+}
+.contact .info p{
+    line-height: 26px;
+}
+.contact .info ul{
+    margin-top: 70px;
+}
+.contact .info ul li{
+ display: block;
+ margin-bottom: 50px;
+}
+.contact .info ul li .icon{
+    float: left;
+    width: 60px;
+    height: 60px;
+    border:1px solid #d73e4d;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #d73e4d;
+    margin-right: 25px;
+}
+.contact .info ul li:hover > .icon{
+    color: #d73e4d;
+    background-color: #fff;
+    transition-duration: .3s;
+}
+.contact .info ul li .data{
+    float: left;
+}
+.contact .info ul li .data h6{
+    color: #292929;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.contact .info ul li .data #map {
+    height: 500px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+   }
+/*End contact*/
