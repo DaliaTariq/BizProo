@@ -57,7 +57,12 @@ p{
     line-height: 26px;
 }
 /****************************************************************End Glabal*********************************************/
-/*Header*/
+/*Start Header*/
+.header{
+    background-color: #000;
+    color: #fff;
+}
+/*End Header*/
 /*Home*/
 
 
@@ -1027,4 +1032,14 @@ p{
 
 /*End footer*/
 
+
+
+
+/**Media Query*/
+@media (min-width: 992px){
+.container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+}
 
