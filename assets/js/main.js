@@ -25,7 +25,7 @@ $(this).addClass("active");
 
 ////////////////////////////////////////////////
 //Web Development bar
-$('#WebDevelopment').LineProgressbar({
+/*$('#WebDevelopment').LineProgressbar({
       percentage: 89 // 90%
     });
 
@@ -46,7 +46,7 @@ $('#WebDevelopment').LineProgressbar({
           radius: '0px',
           height: '30px',
           width: '100%'
-        });
+        });*/
 
 
             
