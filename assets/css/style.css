@@ -75,12 +75,12 @@ p{
     color: #d73e4d;
     transition-duration: .5s;
 }
-.header .navbar-toggler{
-    clear: #fff;
+.header .navbar-toggler span{
+    color: #fff;
     font-size: 14px;
 }
-.header .navbar-toggler{
-   background-color: #fff;
+.header .navbar-toggler .navbar-toggler-icon .fa{
+ color: #fff;
     font-size: 18px;
 }
 /*End Header*/
