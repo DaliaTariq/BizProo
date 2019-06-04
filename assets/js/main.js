@@ -1,4 +1,12 @@
 $(document).ready(function () {
+    /***************
+     Active Navbar Links
+     ****************** */
+    $('.nav-item .nav-link').click(function(){
+        $('.nav-item .nav-link').removeClass("active");
+        $(this).addClass("active");
+    });
+    /**Gellary */
     $(".filter-button").click(function(){
         var value = $(this).attr('data-filter');
         

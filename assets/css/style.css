@@ -81,7 +81,7 @@ p{
     transition-duration: .5s;
     
 }
-.header #navbarNav li.active a{
+.header #navbarNav li a.active{
     color: #d73e4d;
 }
 .header #navbarNav li a:hover{
@@ -250,7 +250,7 @@ font-weight: 500;
     border: 1px solid #d73e4d;
 }
 .servises .services-content .single-services-content:hover > .icon-header{
-    bottom: 240px;
+    bottom: 260px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
