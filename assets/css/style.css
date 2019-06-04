@@ -625,6 +625,7 @@ font-weight: 500;
 .skilles{
     margin-top: 70px;
     transition-duration: 2s;
+    /*max-height: 540px;*/
 }
 .skilles .image{
     width: 100%;
@@ -635,6 +636,27 @@ font-weight: 500;
     width: 100%;
     display: block;
     transition-duration: 2s;
+}
+
+.skilles .skill{
+    margin: 70px 0 0 0;
+}
+.skilles .skill .bar{
+    margin: 0 0 10px 0;
+}
+.skilles .skill .bar .barTexr span{
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 15px;
+    float: none;
+    margin: 0;
+}
+.percentCount {
+    color: #fff;
+    margin-top: -51px;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 /*.skilles .image .overlay{

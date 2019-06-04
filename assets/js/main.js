@@ -23,33 +23,73 @@ $(this).removeClass("active");
 $(this).addClass("active");
 
 
-////////////////////////////////////////////////
-//Web Development bar
-/*$('#WebDevelopment').LineProgressbar({
-      percentage: 89 // 90%
+///////////////Progress Par/////////////////
+
+$('#WebDevelopment').LineProgressbar({
+    percentage: 85 ,// 85%
+    ShowProgressCount: true,
+    duration: 1000,
+    radius: '0px',
+    height: '30px',
+    width: '100%',
+    fillBackgroundColor: '#d73e4d',
+    backgroundColor: '#ffffff',
+  });
+
+  $('#onlineMarketing').LineProgressbar({
+    percentage: 58 ,// 85%
+    ShowProgressCount: true,
+    duration: 1000,
+    radius: '0px',
+    height: '30px',
+    width: '100%',
+    fillBackgroundColor: '#d73e4d',
+    backgroundColor: '#ffffff',
+  });
+
+  $('#digitalMedi').LineProgressbar({
+    percentage: 49 ,// 85%
+    ShowProgressCount: true,
+    duration: 1000,
+    radius: '0px',
+    height: '30px',
+    width: '100%',
+    fillBackgroundColor: '#d73e4d',
+    backgroundColor: '#ffffff',
+  });
+  $('#Photography').LineProgressbar({
+    percentage: 76 ,// 85%
+    ShowProgressCount: true,
+    duration: 1000,
+    radius: '0px',
+    height: '30px',
+    width: '100%',
+    fillBackgroundColor: '#d73e4d',
+    backgroundColor: '#ffffff',
+  });
+
+  $('#creativeDesign').LineProgressbar({
+    percentage: 64 ,// 85%
+    ShowProgressCount: true,
+    duration: 1000,
+    radius: '0px',
+    height: '30px',
+    width: '100%',
+    fillBackgroundColor: '#d73e4d',
+    backgroundColor: '#ffffff',
+  });
+
+  var offsetTop = $('#skills').offset().top;
+	$(window).scroll(function() {
+  var height = $(window).height();
+  if($(window).scrollTop()+height > offsetTop) {
+    jQuery('.bar').each(function(){
+      jQuery(this).find('.skillBar').animate({
+        width:jQuery(this).attr('data-percent')
+      },2000);
     });
-
-    $('#WebDevelopment').LineProgressbar({
-          percentage: 89,
-          ShowProgressCount: true
-    });
-
-    $('#WebDevelopment').LineProgressbar({
-              percentage: 89,
-              duration: 1000
-    });
-
-    $('#WebDevelopment').LineProgressbar({
-          percentage: 89,
-          fillBackgroundColor: '#d8545d',
-          backgroundColor: '#fff',
-          radius: '0px',
-          height: '30px',
-          width: '100%'
-        });*/
-
-
-            
+  }
+  });       
 
 
 
