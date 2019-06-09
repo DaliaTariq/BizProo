@@ -284,11 +284,15 @@ font-weight: 500;
 }
 .servises .services-content .single-services-content:hover > .icon-header{
     bottom: 260px;
-    -webkit-transition: all .3s ease-in-out;
+   /* -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;*/
+}
+.servises .services-content .single-services-content:hover > .icon-header i,
+.servises .services-content .single-services-content:hover > .icon-header h6 a{
+    color:#d73e4d;
 }
 .servises .services-content .single-services-content:hover > p{
     opacity: 1;
