@@ -56,7 +56,40 @@ ul li{
 p{
     line-height: 26px;
 }
+
 /****************************************************************End Glabal*********************************************/
+/*Scroll To Top**/
+#return-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #d73e4d;
+    width: 45px;
+    height: 45px;
+    z-index: 9999;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    line-height: 45px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top::after{
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 1;
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
+}
 /*Start Header*/
 .header{
     background: rgba(0,0,0,0.5);
@@ -304,7 +337,7 @@ font-weight: 500;
     border-radius: 0;
  
  }
- .portofoile .our-projects .links .active{
+ .portofoile .our-projects .links .btn.active{
     border-bottom: 1px solid #d73e4d;
     border-radius: 0;
   }

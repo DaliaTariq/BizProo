@@ -1,12 +1,34 @@
 $(document).ready(function () {
-    /***************
-     Active Navbar Links
-     ****************** */
+    /*Scroll Top**/
+   
+    $(window).scroll(function() {
+        if ($(this).scrollTop() >= 200) {        // If page is scrolled more than 50px
+            $('#return-to-top').fadeIn(200);    // Fade in the arrow
+        } else {
+            $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+        }
+    });
+    $('#return-to-top').click(function() {      // When arrow is clicked
+        $('body,html').animate({
+            scrollTop : 0                       // Scroll to top of body
+        }, 500);
+    });
+    /**Active Navbar Links*******/
     $('.nav-item .nav-link').click(function(){
         $('.nav-item .nav-link').removeClass("active");
         $(this).addClass("active");
     });
-    /**Gellary */
+
+    //
+    //Default active on home
+    
+    /******************Gellary*******************/
+       //ctive Navbar Links
+       $('.nav-item .nav-link').click(function(){
+        $('.nav-item .nav-link').removeClass("active");
+        $(this).addClass("active");
+    });
+    //Filter
     $(".filter-button").click(function(){
         var value = $(this).attr('data-filter');
         
