@@ -56,6 +56,10 @@ ul li{
 p{
     line-height: 26px;
 }
+button:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0);
+}
 
 /****************************************************************End Glabal*********************************************/
 /*Scroll To Top**/
@@ -340,6 +344,10 @@ font-weight: 500;
     transition-duration: .4s;
     border-radius: 0;
  
+ }
+ .portofoile .our-projects .links button:focus{
+     outline: none;
+     box-shadow: 0 0 0 0.2rem rgba(0,123,255,0);
  }
  .portofoile .our-projects .links .btn.active{
     border-bottom: 1px solid #d73e4d;
@@ -793,6 +801,7 @@ font-weight: 500;
     border: none;
     line-height: 45px;
     padding: 0;
+   
 }
 .price .card .white{
     background: #fff;
@@ -800,6 +809,16 @@ font-weight: 500;
 .price .card .gray{
     background: #f3f3f3;
 }
+.price .card #col1,
+.price .card #col2,
+.price .card #col3{
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    display: block;
+    padding: 23px 0;
+}
+
 .price .card #col1{
     background: #d6973d;
     
@@ -1040,12 +1059,20 @@ font-weight: 500;
        border: 1px solid #dfdfdf;
        padding: 0 15px;
        border-radius: 0;
+       outline:transparent;
+   }
+   .contentForm .form-group input:focus,
+   .contentForm textarea:focus{
+       border: 1px solid #333;
+       outline: none;
+       box-shadow: 0 0 0 0.2rem rgba(0,123,255,0);
    }
    .contentForm textarea{
    height: 260px;
    margin-bottom: 20px;
    max-height: 260px;
    padding: 20px 15px;
+   outline: transparent;
    }
    .contentForm .btn{
        background-color: #d73e4d;
@@ -1057,6 +1084,10 @@ font-weight: 500;
        text-transform: uppercase;
        font-size: 14px;
    
+   }
+   .contentForm .btn:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0); 
    }
 
    .contentForm .btn:hover{
@@ -1194,6 +1225,20 @@ font-weight: 500;
     .header .navbar-nav>li>a {
         padding: 0;
     line-height: 44px;
+    }
+  
+}
+
+
+@media (max-width: 430px){
+    .carousel-caption h1{
+        font-size: 27px;
+    }
+    .carousel-caption h6{
+        font-size: 14px;
+    }
+    .carousel-caption a{
+
     }
 }
 

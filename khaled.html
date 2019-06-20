@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline-block;
+            padding-left: 25px;
+
+        }
+
+        ul {
+            float: right;
+            padding: 10px;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        #wrap {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #nheader {
+            background-image: url('images/eng.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: left;
+            background-color: purple;
+            padding: 25px;
+            color: black;
+        }
+
+        h1 {
+            color: black;
+
+        }
+
+        h2 {
+            color: black;
+            text-align: left;
+        }
+
+        /*#npara {
+            background-image: url('images/kk.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            width: 70%;
+            height: auto;
+
+        }
+
+        .redcolre {
+            color: black;
+        }
+
+        .text_para {
+            color: white;
+            font-size: 24px;
+            font-family: serif;
+
+        }
+
+        #footer {
+            background-color: purple;
+            padding: 50px;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        #sidebar {
+            background-color: blue;
+            border: solid 2px black;
+            float: right;
+            width: 25%;
+
+        }*/
+        .page_content{
+            width:100%;
+            height: 1000px ; /*for test*/
+            position: relative;
+        }
+        .page_content .conent{
+            width:70%;
+            float: left;
+        }
+        .page_content .side_bar{
+            width:30%;
+            float: left;
+            background-color: #ccc;
+            position: fixed;
+            top:0px;
+            right: 0;
+            padding: 77px;
+            z-index: -1;
+            height: 100%;
+        }
+        .clear{
+            clear: both;
+        }
+        
+        #footer {
+            background-color: purple;
+            padding: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <!--Start Header-->
+        <div id="nheader">
+            <ul>
+                <li>
+                    <a href="#home">| Home</a>
+                </li>
+                <li>
+                    <a href="#about">| About</a>
+                </li>
+                <li>
+                    <a href="#contact">| Contact</a>
+                </li>
+            </ul>
+
+            <h2>
+                <a href="http://www.facebbook.com/khaledabed2000">ENG.KHALED ABED </a>
+            </h2>
+        </div>
+        <!--End Header-->
+        <!--start page content-->
+        <div class="page_content">
+            <div class="conent">
+                    <div id="home">home</div>
+                    <div id="about">about</div>
+                    <div id="contact">contact</div>
+            </div>
+            <div class="side_bar">
+                
+                    <img src="images/aa.jpg" width=250px>
+            <h1>HI EVERYBODY</h1>
+            <p class="text_para"> My name KHALED, I was born in GAZA . I study engineering at
+                <span class="redcolre">
+                    <a href="http://alazhar.edu.ps"> ALAZHAR University</span>
+                </a> , I am 19 years old .My hobbies are swimming and singing .Although my voice is bad, But I love to give positive
+                energy to eveeyone around me . I spend most of my time studying , My favorite person is actually myself
+                <span
+                    class="redcolre"> because</span> I do not find someone who has perfect qualities .I hate lie and selfishness , I always inspire
+                    to be the best person and I have ahigh confidence that I will succeed in developing my name in the future
+                    as successful enginer and I will become a great person , despite all the circumstances of life but I
+                    always seek a little hope and believe that there is always happiness in the future.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!--End  page content-->
+        
+         <!--Start footer-->
+        <div id="footer">
+            <p class="text_para">this is footer</p>
+        </div>
+        <!--End footer-->
+    </div>
+
+</body>
+
+</html>
