@@ -25,6 +25,7 @@ body{
     text-transform: uppercase;
     font-weight: 700;
     position: relative;
+    font-size: 36px;
     
 }
 .section-intro .section-title::after{
@@ -183,8 +184,6 @@ font-weight: 500;
 
 /*Start About section*/
 .about .about-content{
-   
-    margin-bottom: 100px;
     text-align: center;
 }
 .about .about-content .icon{
@@ -200,6 +199,7 @@ font-weight: 500;
 }
 .about .about-content .information{
     margin-top: 30px;
+    margin-bottom: 100px;
 }
 .about .about-content .information h5{
     color: #292929;
@@ -772,14 +772,15 @@ font-weight: 500;
 /*Clients End*/
 /*Start price*/
 .price{
-    padding: 100px 0 100px 0;
     background: #f3f3f3;
     margin-top: 45px;
+    padding-top: 100px;
 }
 .price .card{
     text-align: center;
     padding: 20px 0 22px 0;
     position: relative;
+   margin-bottom: 100px;
 }
 .price .card::before{
     position: absolute;
@@ -817,6 +818,7 @@ font-weight: 500;
     color: #fff;
     display: block;
     padding: 23px 0;
+    line-height: 23px;
 }
 
 .price .card #col1{
@@ -886,6 +888,10 @@ font-weight: 500;
 .blog .myBlog{
     width: 100%;
     display: block;
+    margin-top: 55px;
+}
+.blog .section-intro{
+    margin-bottom: 0;
 }
 .blog .myBlog .image{
     width: 100%;
@@ -1216,6 +1222,16 @@ font-weight: 500;
 }
 }
 
+@media (max-width: 991px){
+    .section-intro .section-info{
+        width: 100%;
+    }
+
+    .clients .item p{
+        width: 100%;
+    }
+}
+
 @media (max-width: 767px){
     .header .container{
         max-width: 100%;
@@ -1225,6 +1241,12 @@ font-weight: 500;
     .header .navbar-nav>li>a {
         padding: 0;
     line-height: 44px;
+    }
+    .price{
+        padding-bottom: 50px;
+    }
+    .price .card{
+        margin-bottom: 50px;
     }
   
 }
