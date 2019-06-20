@@ -1124,7 +1124,7 @@ font-weight: 500;
     line-height: 45px;
     border:1px solid;
     border-radius: 50%;
-    margin: 0 7px;
+    margin: 13px 7px 0 ;
 }
 .footer ul li a{
     text-decoration: none;
