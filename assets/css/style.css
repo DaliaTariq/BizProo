@@ -1010,9 +1010,10 @@ font-weight: 500;
     padding-top: 22px;
 }
 .partner .part .item img{
-    width: auto;
+    width:auto;
     display: block;
     margin: 0 auto;
+   
 }
 
 
@@ -1263,6 +1264,9 @@ font-weight: 500;
     .carousel-caption h6{
         font-size: 14px;
     }
+    .partner .owl-dots{
+        display: none;
+    }
  }
 
  /******************ibad**********************/
@@ -1273,6 +1277,9 @@ font-weight: 500;
 
     .clients .item p{
         width: 100%;
+    }
+    .partner .owl-dots{
+        display: none;
     }
  }
 

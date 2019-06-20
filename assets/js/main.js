@@ -206,18 +206,22 @@ $('#WebDevelopment').LineProgressbar({
             loop:true,
            margin:-1,
            //width:234.8,
+           responsiveClass:true,
             nav:false,
             autoplay:true,
             autoplayTimeout:8000,
             responsive:{
                 0:{
-                    items:3
+                    items:3,
+                    
                 },
                 600:{
-                    items:3
+                    items:3,
+                    
                 },
                 1000:{
-                    items:5
+                    items:5,
+                    nav:false
                 }
             }
         }
