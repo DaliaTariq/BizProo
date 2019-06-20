@@ -107,7 +107,7 @@ button:focus{
 }
 .header .navbar{
     padding: 0;
-    padding-top: 20px;
+    padding-top: 10px;
     min-height: 50px;
 }
 .header #navbarNav li a{
@@ -1244,6 +1244,9 @@ font-weight: 500;
     }
     .price .card{
         margin-bottom: 50px;
+    }
+    .navbar-brand{
+        padding-left: 15px;
     }
   
 }
