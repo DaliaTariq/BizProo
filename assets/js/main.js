@@ -20,8 +20,24 @@ $(document).ready(function () {
     });
 
     //
+
+    ///////////////////////////////////////
+
+    var scrollTop =0;
+    $(window).scroll(function(){
+        scrollTop = $(window).scrollTop();
+        if (scrollTop > 100){
+            $('.header').addClass ('scroll_header');
+			$('#return-to-top').addClass ('visible');
+			
+        }else if (scrollTop < 100){
+            $('.header').removeClass('scroll_header');
+			$('#return-to-top').removeClass ('visibe');
+        };
+    });
+	
     //Default active on home
-    $(document).ready(function () {
+  
         $(document).on("scroll", onScroll);
         
         //smoothscroll
@@ -44,7 +60,7 @@ $(document).ready(function () {
                 $(document).on("scroll", onScroll);
             });
         });
-    });
+ 
     
     function onScroll(event){
         var scrollPos = $(document).scrollTop();
